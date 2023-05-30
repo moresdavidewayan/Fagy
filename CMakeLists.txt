@@ -7,4 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 
 project(Fagy)
 
+add_subdirectory(src)
+
 add_executable(fagy src/main.cpp)
